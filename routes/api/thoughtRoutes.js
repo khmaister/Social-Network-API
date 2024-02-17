@@ -23,3 +23,4 @@ router.put("/:thoughtId", updateThought);
 // Delete thought by Id
 router.delete("/:thoughtId", deleteThought);
 
+module.exports = router;
